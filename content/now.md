@@ -4,6 +4,13 @@ title: 2026's Devlog
 
 <!-- {{video (src="/infohazard.mp4" title="In my dream, I saw him. The man without a head.")}} -->
 
+## 2X.09
+
+> Listening:
+>
+> - Wyszymory - Co Się W Duszy Komu Gra
+
+
 ## 1X.09
 
 Reached a very comfortable and productive place with my agentic coding setup:
