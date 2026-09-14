@@ -9,6 +9,11 @@ title: 2026's Devlog
 > Listening:
 >
 > - Wyszymory - Co Się W Duszy Komu Gra
+>
+> Watching:
+>
+> - Bird Box
+> - Bird Box Barcelona
 
 
 ## 1X.09
