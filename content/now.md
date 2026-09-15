@@ -6,6 +6,10 @@ title: 2026's Devlog
 
 ## 2X.09
 
+> Reading:
+>
+> - Steven L. Peck - A Short Stay in Hell
+>
 > Listening:
 >
 > - Wyszymory - Co Się W Duszy Komu Gra
