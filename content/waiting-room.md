@@ -9,7 +9,6 @@ title: The Waiting room
 This is where I keep ideas, movies, music, and other things that I plan to
 watch/listen/research more in the future.
 
-- A Short Stay in Hell
 - Greg Egan - *Diaspora* and other books
 - Bugonia (2025)
 - Steve Silberman - Neurotribes
@@ -29,7 +28,6 @@ watch/listen/research more in the future.
 - The mythical man-month, Fred Brooks
 - The Black Swan: The Impact of the Highly Improbable
 - Daniel Ellsberg - [The Optimal Benefit of Perceived Madness](https://ia600102.us.archive.org/20/items/ThePoliticalUsesOfMadness/ELS005-001.pdf)
-- Chaos: Making a New Science
 - The Place Beyond the Pines (2012)
 - Witold Lipiński's architecture
 - Erich Neumann - The Origins and History of Consciousness
