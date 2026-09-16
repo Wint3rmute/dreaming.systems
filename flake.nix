@@ -17,6 +17,7 @@
             packages = [
               pkgs.uv
               pkgs.zola
+              pkgs.graphviz # `dot` binary, used by exocortex to render maps
             ];
 
             # LLMs often want to use a Python environment with some popular
