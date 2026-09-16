@@ -9,6 +9,14 @@ has_nix := if shell('command -v nix >/dev/null 2>&1 && [ -f flake.nix ] && echo 
 
 run := if has_nix == "true" { "nix develop --command" } else { "" }
 
+alias b := build
+alias i := install
+alias s := serve
+alias c := check
+alias u := update
+alias o := outdated
+alias p := package
+
 default: install build serve update check outdated
 
 install:
