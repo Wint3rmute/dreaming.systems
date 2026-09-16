@@ -17,6 +17,7 @@
             packages = [
               pkgs.uv
               pkgs.zola
+              pkgs.just # task runner, so recipes work inside the dev shell
               pkgs.graphviz # `dot` binary, used by exocortex to render maps
               pkgs.zip # used by `just package` to zip the site for Pages
             ];
