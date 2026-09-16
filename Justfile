@@ -33,3 +33,6 @@ check:
 
 outdated:
 	{{run}} uv tree --outdated --depth 1
+
+package:
+	{{run}} rm -rf docs && mkdir -p docs && zip -r docs/site.zip public

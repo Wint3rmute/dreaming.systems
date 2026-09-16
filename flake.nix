@@ -18,6 +18,7 @@
               pkgs.uv
               pkgs.zola
               pkgs.graphviz # `dot` binary, used by exocortex to render maps
+              pkgs.zip # used by `just package` to zip the site for Pages
             ];
 
             # LLMs often want to use a Python environment with some popular
