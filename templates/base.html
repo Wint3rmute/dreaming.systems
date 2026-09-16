@@ -10,12 +10,12 @@
   <meta property="og:image" content="/og_image.jpg">
   <meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#131313" media="(prefers-color-scheme: dark)" />
-  {% if page.title %}
+  {% if page?.title %}
   <meta property="og:title" content="{{ page.title }} - dreaming.systems">
   <meta name="description" content="{{ page.title }} - dreaming.systems">
   {% endif %}
   <meta name="author" content="wint3rmute">
-    <title>dreaming.systems{% if page.title %} - {{ page.title }}{% endif %}
+    <title>dreaming.systems{% if page?.title %} - {{ page.title }}{% endif %}
     </title>
   <link rel="stylesheet" href="/style.css">
   <link rel="alternate" type="application/atom+xml" title="dreaming.systems journal" href="/atom.xml?type=blog" />

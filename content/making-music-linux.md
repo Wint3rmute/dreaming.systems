@@ -48,7 +48,7 @@ It's also open source!
   Eurorack module clones, my favourite being Mutable Instruments
 - *todo*: write something about [Modarrt](https://www.modartt.com/)
 
-{{image (src="/cardinal_patch.jpg" title="Cardinal also has the cutest patch descriptions!")}}
+{{ <image src="/cardinal_patch.jpg" title="Cardinal also has the cutest patch descriptions!" /> }}
 
 ## The controllers
 

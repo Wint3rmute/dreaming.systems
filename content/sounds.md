@@ -12,4 +12,4 @@ title: Sounds & Melodies
 
 - [Some piano songs worth learning](/piano)
 
-{{image (src="/spectres_patch.jpg" title="My Korg Minilogue" small=true)}}
+{{ <image src="/spectres_patch.jpg" title="My Korg Minilogue" small={true} /> }}

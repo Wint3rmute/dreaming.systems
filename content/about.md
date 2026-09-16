@@ -38,13 +38,13 @@ Instruments](https://creotech.pl/). Proud to be a part of the
 [EagleEye](https://creotech.pl/news/the-polish-satellite-eagleeye-is-a-breakthrough-project-for-the-space-sector/)
 project - the most advanced satellite built by a Polish company so far (as of 2024)!
 
-{{image (src="/at_spacex.jpg" small=false title="Our satellite integration crew. Glad to hold the unofficial title of the `Youngest-Polish-Programmer-Who-Has-Entered-The-Spacex-Integration-Facility-As-Far-As-I-Know`.")}}
+{{ <image src="/at_spacex.jpg" small={false} title="Our satellite integration crew. Glad to hold the unofficial title of the `Youngest-Polish-Programmer-Who-Has-Entered-The-Spacex-Integration-Facility-As-Far-As-I-Know`." /> }}
 
-{{image (src="/eagleeye_cleanroom.jpg" small=false title="Picture of the EagleEye taken during Creotech's press campaign")}}
+{{ <image src="/eagleeye_cleanroom.jpg" small={false} title="Picture of the EagleEye taken during Creotech's press campaign" /> }}
 
-{{image (src="/eagleeye_scope.jpg" small=false title="Telescope of the EagleEye satellite, manufactured by another Polish company [Scanway](https://scanway.space/)")}}
+{{ <image src="/eagleeye_scope.jpg" small={false} title="Telescope of the EagleEye satellite, manufactured by another Polish company [Scanway](https://scanway.space/)" /> }}
 
-{{image (src="/eagleeye_visualisation.jpg" small=false title="Visualisation of the EagleEye satellite on orbit")}}
+{{ <image src="/eagleeye_visualisation.jpg" small={false} title="Visualisation of the EagleEye satellite on orbit" /> }}
 
 ### Previous job - [SatRev](https://satrev.space/)
 
@@ -59,14 +59,14 @@ orbit.
 Involved into a wide scope of satellite creation processes: prototyping, tests and ground station operations,
 I have gained a significant insight into the design philosophy of space systems and I'm still eager to learn more.
 
-{{image (src="/with_cubesat.jpg" small=true title="Feeling smart while holding a model of one of Satrev's cubesats.")}}
+{{ <image src="/with_cubesat.jpg" small={true} title="Feeling smart while holding a model of one of Satrev's cubesats." /> }}
 
 Three of the satellites I've worked on were launched on the [first commercial
 Virgin Orbit
 flight](https://virginorbit.com/the-latest/virgin-orbit-selected-to-launch-satrevolutions-constellation-of-constellations/)
 and the rest was launched by SpaceX's Falcon 9.
 
-{{image (src="/sw1ft.jpg" title="Summer of 2020. The SW1FT cubesat I worked on during my internship (artistic vision, duh)") }}
+{{ <image src="/sw1ft.jpg" title="Summer of 2020. The SW1FT cubesat I worked on during my internship (artistic vision, duh)" /> }}
 
 ## ✈️ UAVs
 
@@ -79,7 +79,7 @@ for human-aircraft(s) cooperation.
 
 I've attended [SAE Aero Design 2020](https://www.saeaerodesign.com/) and my team has placed second in the Advance cathegory.
 
-{{image (src="/sae2020.jpg" title="8th of March 2020. Lakeland, FL, USA") }}
+{{ <image src="/sae2020.jpg" title="8th of March 2020. Lakeland, FL, USA" /> }}
 
 ## 🐧 Linux
 
@@ -98,7 +98,7 @@ entire semester and gathered 200+ people on a dedicated Facebook group.
 Seeing a positive response from a large group of students was a truly
 magical experience and the effort was definitely worth the time!
 
-{{image (src="/workshops.jpg" title="Wint3r of 2019. They clearly look like they're having fun :)") }}
+{{ <image src="/workshops.jpg" title="Wint3r of 2019. They clearly look like they're having fun :)" /> }}
 
 ## 🐍 Python, web development
 
@@ -111,7 +111,7 @@ turned to broadly defined web development, which has been my passion for the
 last years of high school and first years of uni. I enjoy glueing together
 weird contraptions, exploring ideas around networking and interactivity.
 
-{{image (src="/consquare.jpg" small=true title="One of the banners we created for Consquare. Courtesy of [Marek Choiński](https://marekchoinski.com/).") }}
+{{ <image src="/consquare.jpg" small={true} title="One of the banners we created for Consquare. Courtesy of [Marek Choiński](https://marekchoinski.com/)." /> }}
 
 I've been field tested during [Nokia Innovative
 Projects](https://github.com/nokia-wroclaw/innovativeprojects), scoring a

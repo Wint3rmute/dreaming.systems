@@ -4,7 +4,7 @@ modified: 2023-05-02T11:08:25+02:00
 title: Thoughts
 ---
 
-{{image (src="/on_philosophy.jpg" small=true title="")}}
+{{ <image src="/on_philosophy.jpg" small={true} title="" /> }}
 
 Collection of resources improving reasoning, empathy, planning, understanding.
 Selected by the merit of how much they feel relevant to my own biases and
@@ -57,7 +57,7 @@ Some quotes I simply enjoyed.
 >
 > ~ Jon Karauker - Into the Wild
 
-{{image (src="/garland.jpg" small=true title="")}}
+{{ <image src="/garland.jpg" small={true} title="" /> }}
 
 > When you're explaining a concept/idea and some people don't get, keep in mind
 > that different human brains [experience thinking

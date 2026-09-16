@@ -1,0 +1,33 @@
+{% component image(src: string, title: string = "", small: bool = false, noshadow: bool = false, invert_on_white_theme: bool = false) %}
+<figure>
+  <img class="image{% if not noshadow %} shadow{% endif %}{% if small %} small{% endif %}{% if invert_on_white_theme %} invert-on-white-theme{% endif %}" src="{{ src }}">
+  <figcaption>{{ title | markdown(inline=true) | safe }}</figcaption>
+</figure>
+{% endcomponent image %}
+
+{% component video(src: string, title: string = "") %}
+<figure>
+  <video src="{{ src }}" autoplay=true loop=true></video>
+  <figcaption>{{ title | markdown(inline=true) | safe }}</figcaption>
+</figure>
+{% endcomponent video %}
+
+{% component definition(word: string, definition: string, source: string = "") %}
+<p>
+  <b class="dictionary-word"> {{ word }}</b>: {{ definition | markdown(inline=true) | safe }}.
+  {% if source != "" %}
+<div class="dictionary-source">
+  Learned from: <i> {{ source | markdown(inline=true) | safe }} </i>
+</div>
+{% endif %}
+</p>
+{% endcomponent definition %}
+
+{% component dictionary_letter(letter: string) %}
+<h2><span class="dictionary-letter">{{ letter }}</span></h2>
+{% endcomponent dictionary_letter %}
+
+{% component svg(src: string) %}
+{% set data = load_data(path=src) %}
+{{ data | safe }}
+{% endcomponent svg %}

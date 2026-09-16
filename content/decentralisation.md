@@ -8,7 +8,7 @@ diverse and decentralised.
 
 <!-- ## Making the internet interesting again -->
 
-{{image (src="/computer_poster.jpg" small=true title="How it feels to browse the Small Web")}}
+{{ <image src="/computer_poster.jpg" small={true} title="How it feels to browse the Small Web" /> }}
 
 Check out my [bookmarks](/bookmarks)!
 

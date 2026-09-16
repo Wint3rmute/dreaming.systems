@@ -17,7 +17,7 @@ title: Listening
 
 ## Other recommendations
 
-{{image (src="/sightseer.jpg" small=true title="Another kind of love")}}
+{{ <image src="/sightseer.jpg" small={true} title="Another kind of love" /> }}
 
 - Rysy
 - Baasch
