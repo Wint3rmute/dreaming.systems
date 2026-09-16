@@ -20,6 +20,6 @@ jobs:
           key: uv-${{ runner.os }}-${{ hashFiles('uv.lock') }}
           restore-keys: |
             uv-${{ runner.os }}-
-      - run: nix develop --command just install
+      - run: just install
       - name: Run linters
-        run: nix develop --command just check
+        run: just check

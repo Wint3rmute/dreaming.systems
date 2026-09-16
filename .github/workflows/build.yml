@@ -31,11 +31,11 @@ jobs:
           restore-keys: |
             uv-${{ runner.os }}-
       - name: Install dependencies
-        run: nix develop --command just install
+        run: just install
       - name: Build the website
-        run: nix develop --command just build
+        run: just build
       - name: Zip the website
-        run: nix develop --command just package
+        run: just package
       - name: Setup Pages
         uses: actions/configure-pages@v6
       - name: Upload artifact
