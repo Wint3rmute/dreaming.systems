@@ -39,8 +39,8 @@ pre-processor for [searx](https://searx.github.io/searx/) that would filter out
 the sites that don't pass a [GPT-detector](https://www.gpt-detector.com/)
 check.
 
-{{ image(src="/ai_art_protest_poster.jpg" title="Anti AI art poster by Veronika
-Kozlova." small=true ) }}
+{{ <image src="/ai_art_protest_poster.jpg" title="Anti AI art poster by Veronika
+Kozlova." small={true} /> }}
 
 While those solutions certainly have potential, it will be hard to scale them
 further without any standarisation. I'm here to propose one. Allow me to
@@ -53,8 +53,8 @@ text file under some `url`. The end user may use **any set of registries**
 while making a query to a search engine. And the search engine will **only
 display results from the sites present in the selected registers**.
 
-{{ image(src="/search_engines_diagram.png" title="Stupid simple example
-diagram, making those helps me think" noshadow=true) }}
+{{ <image src="/search_engines_diagram.png" title="Stupid simple example
+diagram, making those helps me think" noshadow={true} /> }}
 
 # Principles
 

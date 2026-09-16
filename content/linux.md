@@ -4,7 +4,7 @@ modified: 2022-11-08T21:36:18+01:00
 title: System configuration
 ---
 
-{{image (src="/color_theme.jpg" title="A screenshot of my desktop, circa 2021" noshadow=false)}}
+{{ <image src="/color_theme.jpg" title="A screenshot of my desktop, circa 2021" noshadow={false} /> }}
 
 # Repo
 
@@ -47,4 +47,4 @@ It was based on the color scheme from [Material Theme](https://material-theme.co
 
 After finishing university, I gave up on it, focusing more on work & life :)
 
-{{image (src="/old_theme_dwm.jpg" title="My older DWM theme. I wrote a patch which would semi-randomly assign colors to window frames. Looked fancy, but wasn't pleasant to use since it was too hard to figure out which window was focused :)" noshadow=true)}}
+{{ <image src="/old_theme_dwm.jpg" title="My older DWM theme. I wrote a patch which would semi-randomly assign colors to window frames. Looked fancy, but wasn't pleasant to use since it was too hard to figure out which window was focused :)" noshadow={true} /> }}

@@ -2,7 +2,12 @@
 title: 2026's Devlog
 ---
 
-<!-- {{video (src="/infohazard.mp4" title="In my dream, I saw him. The man without a head.")}} -->
+<!-- {{ <video src="/infohazard.mp4" title="In my dream, I saw him. The man without a head." /> }} -->
+
+## 3X.09
+
+I've been thinking about LLM speech recently, the "not this, that" and similar
+structures we're seeing non-stop in LinkedIn. In a 
 
 ## 2X.09
 
@@ -50,7 +55,7 @@ coding practices:
 - Shitton of lints, checkers, strict harnesses
 - UI tests with [Chromatic](https://www.chromatic.com/), can't recommend them enough
 
-{{image (src="/rhizz_apollo11.png" small=false title="Finally, a frontend I'm not ashamed to show off!")}}
+{{ <image src="/rhizz_apollo11.png" small={false} title="Finally, a frontend I'm not ashamed to show off!" /> }}
 
 > Listening:
 >
@@ -158,7 +163,7 @@ our software! This time it's a military mission, no more R&D and technology
 demos. Without going into LinkedIn bragging mode, I feel both honored and
 responsible to support my country and be its eye in the sky.
 
-{{image (src="/mgb01.jpg" small=false title="Mikroglob-01, moments before deployment.")}}
+{{ <image src="/mgb01.jpg" small={false} title="Mikroglob-01, moments before deployment." /> }}
 
 
 ## 0X.07
@@ -180,7 +185,7 @@ Dipping my toes in Polish art market, exploring:
 
 Probably the biggest news of the year - I have my own place now!
 
-{{image (src="/new_place_2026.jpg" small=false title="Sketching, planning, layouting.")}}
+{{ <image src="/new_place_2026.jpg" small={false} title="Sketching, planning, layouting." /> }}
 
 Attempting to convert the internal networking of my homelab into
 [IPv6](https://en.wikipedia.org/wiki/IPv6)
@@ -287,7 +292,7 @@ just by watching the movie and listening to the soundtrack closely!
 
 ## 2X.04
 
-{{image (src="/penguin.jpg" small=false title="Jumping to [GoGo Penguin](https://gogopenguin.co.uk) & [Daudi Matsiko](https://daudi.co.uk)")}}
+{{ <image src="/penguin.jpg" small={false} title="Jumping to [GoGo Penguin](https://gogopenguin.co.uk) & [Daudi Matsiko](https://daudi.co.uk)" /> }}
 
 Gave my [Nix-Darwin](/m4) configuration
 [repo](https://github.com/wint3rmute/darwin) to GitHub Copilot and told
@@ -308,7 +313,7 @@ this point and you'll probably uncover some hidden configuration issues.
 
 ## 1X.04
 
-{{image (src="/cambridge.jpg" small=false title="Charmed by Cambridge")}}
+{{ <image src="/cambridge.jpg" small={false} title="Charmed by Cambridge" /> }}
 
 Thanks for the jam and for the conversations, *W.W.W.*!
 
@@ -332,7 +337,7 @@ Enjoying the paintings of [Aleksander Rostov](https://www.artstation.com/rostovj
 
 ## 2X.03
 
-{{image (src="/malta.jpg" small=true title="Strolling through cozy streets of Malta")}}
+{{ <image src="/malta.jpg" small={true} title="Strolling through cozy streets of Malta" /> }}
 
 > Watching:
 >
@@ -340,7 +345,7 @@ Enjoying the paintings of [Aleksander Rostov](https://www.artstation.com/rostovj
 
 ## 1X.03
 
-{{image (src="/gy_be.jpg" small=false title="GY!BE - Centrum Koncertowe A2, Wrocław")}}
+{{ <image src="/gy_be.jpg" small={false} title="GY!BE - Centrum Koncertowe A2, Wrocław" /> }}
 
 > Listening:
 >

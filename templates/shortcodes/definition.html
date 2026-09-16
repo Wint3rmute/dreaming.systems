@@ -1,8 +1,0 @@
-<p>
-  <b class="dictionary-word"> {{word}}</b>: {{definition | markdown(inline=True) | safe}}.
-  {% if source != "" %}
-<div class="dictionary-source">
-  Learned from: <i> {{source | markdown(inline=True) | safe }} </i>
-</div>
-{% endif %}
-</p>

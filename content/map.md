@@ -2,7 +2,7 @@
 title: Map
 ---
 
-{{svg (src="generated/connections.svg")}}
+{{ <svg src="generated/connections.svg" /> }}
 
 <center>
 You can click on each node, they are links!

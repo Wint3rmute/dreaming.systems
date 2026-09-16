@@ -4,7 +4,7 @@ modified: 2023-05-18T21:37:14+02:00
 title: The Waiting room
 ---
 
-{{image (src="/waiting_room.jpg" title="") }}
+{{ <image src="/waiting_room.jpg" title="" /> }}
 
 This is where I keep ideas, movies, music, and other things that I plan to
 watch/listen/research more in the future.

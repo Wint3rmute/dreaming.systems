@@ -36,7 +36,7 @@ and create auto-generated "related links" section for each page.
 
 I'm also generating a cool looking connections graph using `graphviz`:
 
-{{svg (src="generated/connections.svg")}}
+{{ <svg src="generated/connections.svg" /> }}
 
 See the [map](/map) for details.
 
