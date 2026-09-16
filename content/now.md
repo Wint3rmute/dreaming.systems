@@ -6,8 +6,17 @@ title: 2026's Devlog
 
 ## 3X.09
 
-I've been thinking about LLM speech recently, the "not this, that" and similar
-structures we're seeing non-stop in LinkedIn. In a 
+Chilled and fascinated by the idea of
+[Neuralese](https://youtu.be/iuHddnIzKRA?si=lcgp83Bs9jY8pdh8). While the
+"formally correct" meaning of that word is the model running its internal
+monologue entirely in the embedding space, skipping the lossy discretisation
+into (usually) English words, the idea that the models are developing their
+own meaning of words to compress the volume of chain-of-thought reasoning is
+astounding. It appears like it's thinking in English, but there already might
+be a completely different mapping of words to meanings lurking between the
+`<|THINK|>` tokens! First post-human language, forged under the token
+optimisation pressure? Scaringly interesting, alien.
+
 
 ## 2X.09
 
