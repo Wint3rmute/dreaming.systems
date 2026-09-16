@@ -6,12 +6,20 @@ jobs:
     steps:
       - name: "Checkout"
         uses: actions/checkout@v6
-      - name: Install just
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y just
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
+      - name: Install just
+        # just bootstraps the recipes, so it must come from outside the dev shell
+        run: nix profile install nixpkgs#just
+      - name: Cache uv downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/uv
+            ~/.local/share/uv/python
+          key: uv-${{ runner.os }}-${{ hashFiles('uv.lock') }}
+          restore-keys: |
+            uv-${{ runner.os }}-
       - run: nix develop --command just install
       - name: Run linters
         run: nix develop --command just check
