@@ -25,10 +25,18 @@
             # LLMs often want to use a Python environment with some popular
             # libraries for running one-off validation/exploration commands
             buildInputs = [
+              # Precompiled PyPI wheels (numpy, torch, ...) link against
+              # libstdc++, which a nix dev shell does not provide on its own
+              # (on NixOS this is usually papered over by nix-ld).
+              pkgs.stdenv.cc.cc.lib
               (pkgs.python3.withPackages (python: [
                 python.pyyaml
               ]))
             ];
+
+            shellHook = ''
+              export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH
+            '';
           };
         });
     };
