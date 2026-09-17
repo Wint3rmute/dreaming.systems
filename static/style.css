@@ -307,6 +307,7 @@ hr {
 .index-page-title {
   font-style: italic;
   font-weight: 400;
+  font-size: 105%;
   color: var(--on-surface);
   opacity: 0.4;
   text-underline-offset: 10px;
@@ -405,15 +406,6 @@ hr {
   nav {
     padding-left: 25%;
     padding-right: 25%;
-  }
-
-  .index-page-title {
-    font-size: 120%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin-top: 1vh;
-    margin-left: 2vh;
   }
 
   main {

@@ -10,15 +10,19 @@ Chilled and fascinated by the idea of
 [Neuralese](https://youtu.be/iuHddnIzKRA?si=lcgp83Bs9jY8pdh8). While the
 "formally correct" meaning of that word is the model running its internal
 monologue entirely in the embedding space, skipping the lossy discretisation
-into (usually) English words, the idea that the models are developing their
-own meaning of words to compress the volume of chain-of-thought reasoning is
-astounding. It appears like it's thinking in English, but there already might
-be a completely different mapping of words to meanings lurking between the
-`<|THINK|>` tokens! First post-human language, forged under the token
-optimisation pressure? Scaringly interesting, alien.
+into (usually) English words, the thought that models are developing their own
+meaning of words to compress the volume of chain-of-thought reasoning is still
+astounding. It appears like it's thinking in English, but a completely different
+mapping of words to meanings might already be lurking between the `<|THINK|>`
+tokens! First post-human language, forged under the token optimisation pressure?
+Scaringly interesting, alien.
 
 
 ## 2X.09
+
+Friendly reminder to migrate your personal DNS domains to
+[.internal](https://en.wikipedia.org/wiki/.internal), it's
+guaranteed to never be sold to corps/scammers!
 
 > Reading:
 >
