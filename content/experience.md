@@ -34,11 +34,8 @@ Update 17.07.2022
 I've managed to hack together some basic text vectorisation tools
 and create auto-generated "related links" section for each page.
 
-I'm also generating a cool looking connections graph using `graphviz`:
-
-{{ <svg src="generated/connections.svg" /> }}
-
-See the [map](/map) for details.
+I'm also generating a cool looking connections graph using `graphviz`,
+see the [map](/map) for details.
 
 ## Gotta go fast!
 

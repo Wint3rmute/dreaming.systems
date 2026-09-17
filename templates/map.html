@@ -1,0 +1,65 @@
+{# Map page template: same as page.html, but inlines the generated
+   connections SVG via load_data. The SVG must NOT go through markdown
+   (e.g. via a content component): the parser injects <p> tags into it,
+   which breaks SVG rendering in browsers. #}
+{% extends "base.html" %}
+
+{% block content %}
+
+{% set filename_no_slashes = page.path | replace(from="/", to="") %}
+{% set related_file_name = [ filename_no_slashes, ".json" ] | join() %}
+{% set related_file_path = ["generated", related_file_name ] | join(sep="/") -%}
+{% set related_posts = load_data(path=related_file_path, required=false) -%}
+
+{% set related_map_file_name = [ filename_no_slashes, ".svg" ] | join() %}
+{% set related_map_file_path = ["generated", related_map_file_name ] | join(sep="/") -%}
+{% set related_map_posts = load_data(path=related_map_file_path, required=true, format="plain") -%}
+
+{% set connections_map = load_data(path="generated/connections.svg") -%}
+
+<nav>
+  <div class="nav-left">
+    <a href="/" class="nav-link"><b>~</b></a>
+  </div>
+  <div class="nav-right">
+    <a href="/about" class="nav-link">about</a>
+    <a href="/now" class="nav-link">now</a>
+    <a href="/map" class="nav-link">map</a>
+  </div>
+</nav>
+
+
+<main>
+<article>
+
+<header class="post-title">
+  {% if related_posts %}
+    <span style="color: {{ related_posts.color }};">○</span>
+    <span style="text-decoration: underline {{ related_posts.color }} 1px;"/>
+  {% else %}
+    <span style="text-decoration: underline var(--background-light) 1px;"/>
+  {% endif %}
+
+  {{ page.title | markdown(inline=True) | safe }}
+</header>
+
+{{ connections_map | safe }}
+
+{{ page.content | safe }}
+
+<hr>
+</article>
+
+{% if related_posts %}
+  <aside>
+  <p><a class="hidden" href="/map">Related</a> posts:</p>
+
+  <center>
+  {{ related_map_posts | safe }}
+  </center>
+
+  </aside>
+{% else %}{% endif %}
+
+</main>
+{% endblock content %}

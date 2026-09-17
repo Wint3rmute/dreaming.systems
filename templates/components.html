@@ -26,8 +26,3 @@
 {% component dictionary_letter(letter: string) %}
 <h2><span class="dictionary-letter">{{ letter }}</span></h2>
 {% endcomponent dictionary_letter %}
-
-{% component svg(src: string) %}
-{% set data = load_data(path=src) %}
-{{ data | safe }}
-{% endcomponent svg %}

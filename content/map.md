@@ -1,8 +1,7 @@
 ---
 title: Map
+template: map.html
 ---
-
-{{ <svg src="generated/connections.svg" /> }}
 
 <center>
 You can click on each node, they are links!
