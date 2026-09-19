@@ -120,6 +120,7 @@ and gradually move them to this page.
 {{ <definition word="Schadenfreude" definition="Delight in another person's misfortune" source="Dwie Lewe Ręce Podcast" /> }}
 {{ <definition word="Spoke" definition="any of the rods that join the edge of a wheel to its center to strengthen it" source="Peter Watts - Echopraxia" /> }}
 {{ <definition word="Syllogism" definition="form of deductive reasoning in which a conclusion is drawn from two or more premises" source="The Origin of Consciousness in the Breakdown of the Bicameral Mind" /> }}
+{{ <definition word="Stigmergy" definition="mechanism of indirect coordination, through the environment, between agents" source="Random web searches about life simulation" /> }}
 
 {{ <dictionary_letter letter="T" /> }}
 
