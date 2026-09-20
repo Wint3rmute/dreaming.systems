@@ -17,6 +17,10 @@ mapping of words to meanings might already be lurking between the `<|THINK|>`
 tokens! First post-human language, forged under the token optimisation pressure?
 Scaringly interesting, alien.
 
+> Reading:
+>
+> - James Gleick - Chaos: Making a New Science
+
 
 ## 2X.09
 

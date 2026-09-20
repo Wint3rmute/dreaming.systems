@@ -9,6 +9,7 @@ title: The Waiting room
 This is where I keep ideas, movies, music, and other things that I plan to
 watch/listen/research more in the future.
 
+- [Steven Wolfram - A New Kind Of Science](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)
 - Greg Egan - *Diaspora* and other books
 - Bugonia (2025)
 - Steve Silberman - Neurotribes
