@@ -20,7 +20,10 @@ Scaringly interesting, alien.
 > Reading:
 >
 > - James Gleick - Chaos: Making a New Science
-
+>
+> Watching:
+>
+> - Earthlings (2005)
 
 ## 2X.09
 
