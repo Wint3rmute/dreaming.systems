@@ -4,6 +4,17 @@ title: 2026's Devlog
 
 <!-- {{ <video src="/infohazard.mp4" title="In my dream, I saw him. The man without a head." /> }} -->
 
+## 0X.10
+
+> Listening:
+>
+> - DOMi & JD BECK - Flim (Aphex Twin cover)
+> - GoGo Penguin - Raven
+>
+> Watching:
+>
+> - Better Call Saul
+
 ## 3X.09
 
 Chilled and fascinated by the idea of
