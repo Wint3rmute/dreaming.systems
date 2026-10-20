@@ -4,6 +4,13 @@ title: 2026's Devlog
 
 <!-- {{ <video src="/infohazard.mp4" title="In my dream, I saw him. The man without a head." /> }} -->
 
+## 2X.10
+
+> Listening:
+>
+> - DOMi & JD BECK - Sniff
+
+
 ## 0X.10
 
 > Listening:
@@ -14,6 +21,7 @@ title: 2026's Devlog
 > Watching:
 >
 > - Better Call Saul
+
 
 ## 3X.09
 
