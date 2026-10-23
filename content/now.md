@@ -9,6 +9,7 @@ title: 2026's Devlog
 > Listening:
 >
 > - DOMi & JD BECK - Sniff
+> - GoGo Penguin - Atomized
 
 
 ## 0X.10
