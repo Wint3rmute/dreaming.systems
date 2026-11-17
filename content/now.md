@@ -4,6 +4,20 @@ title: 2026's Devlog
 
 <!-- {{ <video src="/infohazard.mp4" title="In my dream, I saw him. The man without a head." /> }} -->
 
+## 1X.11
+
+> Listening:
+>
+> - Big Thief - Simulation Swarm
+
+## 0X.11
+
+> Watching:
+>
+> - 28 Days Later
+> - 28 Weeks Later
+
+
 ## 2X.10
 
 > Listening:
