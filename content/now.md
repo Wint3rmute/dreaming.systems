@@ -16,6 +16,7 @@ title: 2026's Devlog
 >
 > - 28 Days Later
 > - 28 Weeks Later
+> - 28 Years Later
 
 
 ## 2X.10
