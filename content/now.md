@@ -9,6 +9,11 @@ title: 2026's Devlog
 > Listening:
 >
 > - Big Thief - Simulation Swarm
+>
+> Watching:
+>
+> - Cyberpunk Edgerunners 2
+
 
 ## 0X.11
 
@@ -17,6 +22,7 @@ title: 2026's Devlog
 > - 28 Days Later
 > - 28 Weeks Later
 > - 28 Years Later
+> - 28 Years Later: The Bone Temple
 
 
 ## 2X.10
