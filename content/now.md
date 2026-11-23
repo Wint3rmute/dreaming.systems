@@ -4,15 +4,19 @@ title: 2026's Devlog
 
 <!-- {{ <video src="/infohazard.mp4" title="In my dream, I saw him. The man without a head." /> }} -->
 
+## 2X.11
+
+> Watching:
+>
+> - Cyberpunk Edgerunners 2
+
+
 ## 1X.11
 
 > Listening:
 >
 > - Big Thief - Simulation Swarm
 >
-> Watching:
->
-> - Cyberpunk Edgerunners 2
 
 
 ## 0X.11
