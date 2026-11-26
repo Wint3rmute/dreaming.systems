@@ -8,6 +8,7 @@ title: 2026's Devlog
 
 > Watching:
 >
+> - [Reliability Lessons From SQLite - Richard Hipp | SSW 2026](https://youtu.be/V_qzqY1bb7I?si=g_c6RHN8HjUFW7I0)
 > - Cyberpunk Edgerunners 2
 
 
